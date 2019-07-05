@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     private Button btnSubscribe;
 
     private Observable<String> observable;
-    private Observer observer;
+    private Observer<String> observer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
